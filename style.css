@@ -1,0 +1,38 @@
+/*EJERCICIO #1*/
+/* Define variables y valores para tu sitio web */
+/* Uso de tus variables */
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 24px;
+}
+
+/*EJERCICIO #2*/
+/* define variables para colores primarios */
+#content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* usa las variables */
+.main-header {
+  background-color: #a2b9bc;
+}
+
+.menu-left {
+  background-color: #b2ad7f;
+}
+
+.menu-right {
+  background-color: #878f99;
+}
+
+/*EJERCICIO #5*/
+.danger {
+  color: red;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

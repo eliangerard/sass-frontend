@@ -1,0 +1,53 @@
+/*EJERCICIO #1*/
+
+/* Define variables y valores para tu sitio web */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 24px;
+
+/* Uso de tus variables */
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
+
+/*EJERCICIO #2*/
+
+/* define variables para colores primarios */
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+$primary_3: #878f99;
+
+#content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* usa las variables */
+.main-header {
+    background-color: $primary_1;
+}
+
+.menu-left {
+    background-color: $primary_2;
+}
+
+.menu-right {
+    background-color: $primary_3;
+}
+
+/*EJERCICIO #5*/
+
+@mixin important-text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+.danger {
+    @include important-text;
+    background-color: green;
+}
